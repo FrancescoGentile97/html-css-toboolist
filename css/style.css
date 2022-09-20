@@ -5,8 +5,17 @@
 }
 
 body {
-    background-color: rgb(246, 248,249);
+    background-color: rgb(246, 248, 249);
 
+}
+
+nav {
+    height: 5em;
+    text-align: left;
+    padding-left: 5em;
+    padding-top: 1.5em;
+    border-bottom: solid;
+    border-color: rgb(246, 248, 249);
 }
 
 #titolo {
@@ -17,7 +26,20 @@ body {
     font-weight: bold;
 }
 
+#main-container {
+    background-color: rgb(246, 248, 249);
+    height: 45em;
+    padding-left: 50px;
+}
+
+.section-container {
+    background-color: white;
+    height: 40em;
+    margin: 3em 5em 5em 5em;
+}
+
 .logo-container {
+    width: auto;
     height: 80px;
     border-bottom: solid;
     border-color: white;
@@ -25,9 +47,104 @@ body {
 
 }
 
+
 .logo {
     width: 4em;
     margin-left: 1em;
     position: absolute;
 }
 
+.btn-toolset {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-color: #007BFF;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    border: 1px solid #006FE6;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn-toolset:hover {
+    background-color: #0063CC;
+    border-color: #0056B3;
+}
+
+.btn-toolset2 {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    color: #C1C1C1;
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    border: 1px solid #D9E0FF;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn-toolset2:hover {
+    background-color: #CCCAC9;
+    border-color: #B3B3B3;
+}
+
+.newtask-container {
+    text-align: left;
+    padding-left: 4em;
+    padding-top: 3em;
+    height: 35em;
+}
+
+.arrow {
+    font-size: 10px;
+    margin-bottom: 1.5em;
+    padding-right: 5px;
+
+}
+
+
+.spunta-verde {
+    font-size: 15px;
+    margin-bottom: 1.5em;
+    padding-right: 5px;
+
+}
+
+.red-x {
+    font-size: 15px;
+    margin-bottom: 1.5em;
+    padding-right: 5px;
+
+}
+
+.section-title {
+    font-size: 2.5em;
+    font-weight: bold;
+
+}
+
+.section-text {
+    font-size: 18px;
+
+}
+
+.blue-mark {
+    font-size: 12px;
+    color: white;
+    background-color: #1888ff;
+    padding: 5px;
+    border-radius: 10px;
+
+}
